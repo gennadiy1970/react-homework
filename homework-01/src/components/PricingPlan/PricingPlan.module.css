@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 50px;
+  padding: 0;
+  max-width: 1260px;
+  list-style: none;
+}
+
+.item {
+  width: calc(33% - 20px);
+  flex-grow: 0;
+  flex-basis: 450px;
+  flex-shrink: 1;
+  margin: 0 20px;
+}

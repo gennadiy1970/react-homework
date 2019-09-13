@@ -1,0 +1,79 @@
+.pricing-item {
+  font-family: 'Oswald', sans-serif;
+  min-height: 700px;
+  background-color: #fff;
+  padding: 86px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: block;
+  width: 220px;
+  height: 168px;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.capacity {
+  font-size: 17px;
+  color: rgb(180, 180, 180);
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(186, 186, 186);
+  line-height: 1.667;
+  text-align: center;
+}
+
+.price {
+  font-size: 40px;
+  color: rgb(127, 140, 141);
+  text-transform: uppercase;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  width: 200px;
+  padding: 19px 0;
+  line-height: 1;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+
+.button--Bronze {
+  background-color: rgb(221, 124, 75);
+}
+.label--Bronze {
+  color: rgb(221, 124, 75);
+}
+
+.button--Silver {
+  background-color: #c0c0c0;
+}
+.label--Silver {
+  color: #c0c0c0;
+}
+
+.button--Gold {
+  background-color: #dda431;
+}
+.label--Gold {
+  color: #dda431;
+}

@@ -1,0 +1,63 @@
+.stats-section {
+  display: inline-block;
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+}
+
+.title {
+  --h: 70px;
+  margin: 0;
+  min-height: var(--h);
+  background-color: #fff;
+  color: rgb(71, 89, 101);
+  font-size: 16px;
+  font-family: 'ProximaNova', sans-serif;
+  line-height: var(--h);
+  text-align: center;
+}
+
+.stat-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.item {
+  width: 70px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 1rem;
+}
+
+.item:nth-of-type(4n + 1) {
+  background: #4fc4f6;
+}
+.item:nth-of-type(4n + 2) {
+  background: #a33cf2;
+}
+.item:nth-of-type(4n + 3) {
+  background: #e64c65;
+}
+.item:nth-of-type(4n + 4) {
+  background: #21b8c6;
+}
+
+.label {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'ProximaNova', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.667;
+}
+
+.percentage {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'ProximaNova', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.111;
+}
